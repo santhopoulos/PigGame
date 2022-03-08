@@ -30,7 +30,7 @@ const gameReset = function () {
   diceEL.classList.add('hidden');
   player0EL.classList.remove('player--winner');
   player1EL.classList.remove('player--winner');
-  player1EL.classList.add('player--active');
+  player0EL.classList.add('player--active');
   player1EL.classList.remove('player--active');
 };
 gameReset();
